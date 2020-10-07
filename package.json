@@ -10,10 +10,9 @@
     "fetch",
     "read"
   ],
-  "main": "bin/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node bin/index.js",
     "test": "jest"
   },
   "author": "Justin Vos",
@@ -34,7 +33,7 @@
     "jest": "^23.1.0"
   },
   "files": [
-    "bin/",
+    "dist/",
     "index.d.ts",
     "CHANGELOG.md",
     "LICENSE",

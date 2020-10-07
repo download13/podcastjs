@@ -1,3 +1,4 @@
+import type { Podcast } from '..'
 import fetch from 'cross-fetch'
 import { parsePodcast } from './parse'
 

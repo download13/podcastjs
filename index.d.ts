@@ -1,5 +1,9 @@
 declare module 'podcastjs'
 
+export default function fetchPodcast(url: string): Podcast
+
+export function parsePodcast(text: string): Podcast
+
 interface Podcast {
   title: string
   date: string

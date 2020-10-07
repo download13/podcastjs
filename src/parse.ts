@@ -1,3 +1,4 @@
+import type { Podcast, Episode } from '..'
 import xmlJs from 'xml-js'
 import { ParseError } from './classes'
 import moment from 'moment'

@@ -11,8 +11,8 @@ export function parsePodcast (text: string): Podcast {
     title: parsePodcastTitle(channel),
     date: getPodcastDate(channel),
     description: parsePodcastDescription(channel),
-    episodes: podcastRss.rss.channel.item.map(parseEpisode),
-    image: parseImage(channel)
+    image: parseImage(channel),
+    episodes: podcastRss.rss.channel.item.map(parseEpisode)
   }
 
   return podcast

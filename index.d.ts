@@ -6,10 +6,10 @@ export function parsePodcast(text: string): Podcast
 
 interface Podcast {
   title: string
-  date: string
   description: string
   episodes: Episode[]
 
+  date?: Date
   url?: string
   image?: string
 }
@@ -18,10 +18,10 @@ interface Episode {
   index: number
   title: string
   guid: string
-  date: string
   description: string
   audio: string
 
+  date?: Date
   image?: string
 }
 

@@ -17,11 +17,11 @@
   },
   "author": "Justin Vos",
   "bugs": {
-    "url": "https://github.com/justinvos/podcastjs/issues"
+    "url": "https://github.com/download13/podcastjs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/justinvos/podcastjs.git"
+    "url": "https://github.com/download13/podcastjs.git"
   },
   "license": "MIT",
   "dependencies": {

@@ -66,8 +66,8 @@ export function parseEpisode (item: any, index: number): Episode {
 }
 
 export function parseEpisodeGuid (item: any): string {
-  if (item.guid && item.guid._cdata) {
-    return item.guid._cdata
+  if (item.guid) {
+    return item.guid._cdata || item.guid._text
   } else {
     return ''
   }

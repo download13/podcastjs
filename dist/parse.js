@@ -73,8 +73,8 @@ function parseEpisode(item, index) {
 }
 exports.parseEpisode = parseEpisode;
 function parseEpisodeGuid(item) {
-    if (item.guid && item.guid._cdata) {
-        return item.guid._cdata;
+    if (item.guid) {
+        return item.guid._cdata || item.guid._text;
     }
     else {
         return '';

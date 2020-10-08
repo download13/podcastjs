@@ -13,6 +13,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "watch": "tsc --watch",
     "test": "jest"
   },
   "author": "Justin Vos",
